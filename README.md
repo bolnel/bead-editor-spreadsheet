@@ -1,8 +1,6 @@
 # Bead Pattern Template
 
-This repository contains a Google Sheets-based system for building and managing bead patterns using a color-to-letter mapping workflow.
-
-It includes:
+Custom rocaille bead pattern editor in Google Sheets. The template dimensions are 120*26 beads, could be used for collars or bracelets.
 
 - **Bead Pattern Template.xlsx** – spreadsheet template with required formatting and structure
 - **BeadPattern.gs** – Google Apps Script that powers the automation and menu system
@@ -22,7 +20,7 @@ Upload **Bead Pattern Template.xlsx** to Google Drive and open it with **Google 
 1. Open the spreadsheet.
 2. Go to **Extensions → Apps Script**.
 3. Delete any existing code in the editor (for example `Code.gs`).
-4. Copy the contents of **BeadPattern.gs** from this repository and paste it into the editor.
+4. Copy the contents of **bead-editor-template-script.js** from this repository and paste it into the editor.
 5. Click **Save**.
 
 ---
