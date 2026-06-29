@@ -58,28 +58,16 @@ A new menu named **Bead pattern** will appear in the top toolbar.
 The **Bead pattern** menu provides all main actions:
 
 ### Top-level actions
-- **Count + add letters** – runs the full pipeline (clear pattern → count colors → assign letters → render pattern)
-- **Populate palette** – extracts new colors from Pattern into Palette
+- **Count + add letters** – outputs the count of each bead into Palette. Writes the letters for each color into Pattern
+- **Populate palette** – extracts new colors from Pattern into Palette. Run when you finished designing the pattern. Rows in Palette can be rearranged afterwards. Running this function again after design changes will add the colors that aren't in Palette yet.
 - **Clear pattern text** – removes letters from Pattern while keeping colors
-- **Swap colors** – replaces colors using the Swapper column
+- **Swap colors** – Put the new colors as background in the Swapper column cells. Running this function will replace the original colors with the new ones
 
-### Tools (advanced functions)
+### Tools (singular functions)
 - Set grid (5×5)
 - Count colors
-- Add palette letters
-- Render letters → Pattern
-
----
-
-## Workflow overview
-
-Typical usage flow:
-
-1. Populate palette from Pattern
-2. Run **Count + add letters**
-3. (Optional) Adjust Palette manually
-4. Run **Swap colors** if needed
-5. Re-run **Count + add letters** to refresh Pattern
+- Add letters in Palette letter column (ABCDE...)
+- Render letters in Pattern
 
 ---
 
